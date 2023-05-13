@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, Arial;
+}
+
+body {
+    padding-top: 90px;
+}
+
+header {
+    padding: 10px;
+    width: 100%;
+    background-color: #103FA7;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 0;
+    position: fixed;
+}
+
+header nav,
+.menu {
+    float: right;
+}
+
+main {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.btn {
+    border-radius: 100px;
+    background-color: #103FA7;
+    color: #F9AA08;
+    padding: 5px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.grid-detalhes {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.grid-detalhes .coluna {
+    margin: 10px;
+}
+
+.grid-detalhes .coluna img {
+    width: 100%;
+}
+
+main p {
+    line-height: 30px;
+    margin: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 420px) {
+    header img {
+        width: 250px;
+    }
+
+    header .menu,
+    .mobile {
+        display: block;
+    }
+
+    header nav,
+    .desktop {
+        display: none;
+        width: 100%;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .grid-filmes,
+    .grid-detalhes {
+        grid-template-columns: 100%;
+    }
+}
+
+main {
+    width: 90%;
+    margin: 50px auto;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0 0 0;
+    font-weight: bold;
+}
+
+.form {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: rgb(158, 158, 16);
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
